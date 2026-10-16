@@ -1,0 +1,49 @@
+#home {
+  height: 100vh;
+  background: linear-gradient(to right, lavender, purple);
+  color: white;
+  margin-bottom: 50px;
+
+  h1 {
+    margin-top: 20px;
+  }
+}
+
+#skills {
+  margin-top: 70px;
+}
+
+#conatainerhome {
+  padding-top: 150px;
+}
+
+#skills .card {
+  border-radius: 15px;
+  box-shadow: 0 0 10px;
+  margin-block: 10px; /* so that cards won't look to crowded specially if we use mobile view */
+}
+
+/* #skills .card {
+  transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+#skills .card:hover {
+  transform: translateY(-10px);
+  background-color: #0d6efd;
+  color: white;
+} */
+
+/* Since bg-purple is not a background utility of bootstrap,
+ I have to style it myself here as css */
+.bg-purple {
+  background-color: pink;
+}
+
+body {
+  background: linear-gradient(to left, lavender, purple);
+  color: white;
+  font-family: "Times New Roman";
+}
